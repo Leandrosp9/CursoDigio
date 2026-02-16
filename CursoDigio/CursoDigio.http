@@ -1,0 +1,6 @@
+@CursoDigio_HostAddress = http://localhost:5189
+
+GET {{CursoDigio_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
