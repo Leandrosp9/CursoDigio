@@ -4,11 +4,11 @@
 Esta API foi desenvolvida como parte do Curso Digio para gerenciar um ecossistema de aprendizado online. O sistema permite a administração de Cursos, o cadastro de Estudantes (integrados ao ASP.NET Core Identity) e o controle de Matrículas, garantindo regras de negócio como a impossibilidade de duplicidade de inscrições e a persistência em banco de dados SQL Server utilizando Entity Framework Core.
 
 🛠️ Tecnologias Utilizadas
-ASP.NET Core Web API 8.0
-Entity Framework Core 8.0 (ORM)
-SQL Server / LocalDB (Banco de Dados)
-Swagger (OpenAPI) (Documentação de Endpoints)
-Git/GitHub (Versionamento e Gestão de Tarefas)
+- ASP.NET Core Web API 8.0
+- Entity Framework Core 8.0 (ORM)
+- SQL Server / LocalDB (Banco de Dados)
+- Swagger (OpenAPI) (Documentação de Endpoints)
+- Git/GitHub (Versionamento e Gestão de Tarefas)
 
 ## ⚙️ Requisitos
 - .NET 8 SDK
