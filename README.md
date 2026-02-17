@@ -73,10 +73,6 @@ https://localhost:7065
 A documentação técnica complementar pode ser encontrada em:
 /docs
 
-Exemplos:
-authentication.md
-authorization.md
-endpoints.md
 
 ## 🚀 Status do Projeto
 Projeto em evolução, com foco em:
