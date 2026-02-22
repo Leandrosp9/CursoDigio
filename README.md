@@ -51,21 +51,23 @@ As tabelas são geradas via EF Core Migrations, incluindo:
 . Identity: tabelas do ASP.NET Core Identity
 
 ## 🔐 Autenticação
-A API utiliza ASP.NET Core Identity + JWT Bearer Tokens.
-
-Login
-POST /api/auth/login
-Exemplo:
-      JSON
-      {
-        "email": "admin@admin.com",
-        "password": "Admin@123"
-      }
-
+A API utiliza ASP.NET Core Identity + JWT Bearer Tokens.                                                  
+                                                                             
+Login                                                                                          
+POST /api/auth/login                                                                    
+Exemplo:                                                                                          
+```JSON                                                                               
+            {                                                                                                                                           
+              "email": "admin@admin.com",                                                                           
+              "password": "Admin@123"                                                                                           
+            }                                                                                          
+```
 Resposta:
-      {
-        "accessToken": "eyJhbGciOiJIUzI1NiIs..."
-      }
+```JSON
+           {
+               "accessToken": "eyJhbGciOiJIUzI1NiIs..."
+           }
+````
 
 ## Como autenticar no Swagger
 Faça login em POST /api/auth/login
