@@ -77,27 +77,27 @@ O Swagger já adiciona automaticamente Authorization: Bearer {token}.
 
 ## Endpoints 
 Courses
-POST /api/courses — Admin, Instructor
-GET /api/courses — Público (com paginação/filtro)
-GET /api/courses/{id} — Público
-PUT /api/courses/{id} — Admin, Instructor
-DELETE /api/courses/{id} — Admin
+POST /api/courses — Admin, Instructor                   
+GET /api/courses — Público (com paginação/filtro)                  
+GET /api/courses/{id} — Público                              
+PUT /api/courses/{id} — Admin, Instructor                       
+DELETE /api/courses/{id} — Admin                                
 
 Students
-POST /api/students — Admin
-GET /api/students — Admin
-GET /api/students/{id} — Autenticado (recomendado: Admin ou proprietário)
-PUT /api/students/{id} — Admin ou proprietário
-DELETE /api/students/{id} — Admin (soft delete)
-GET /api/students/me — Autenticado (perfil do usuário logado)
+POST /api/students — Admin                          
+GET /api/students — Admin                               
+GET /api/students/{id} — Autenticado (recomendado: Admin ou proprietário)                        
+PUT /api/students/{id} — Admin ou proprietário                               
+DELETE /api/students/{id} — Admin (soft delete)                                                 
+GET /api/students/me — Autenticado (perfil do usuário logado)                                              
 
 Enrollments
-POST /api/enrollments — Autenticado
-Student matricula a si (StudentId vem do token)
-Admin pode informar studentId
-GET /api/enrollments/{id}/enrollments — Autenticado
-Admin vê qualquer estudante
-Student vê apenas as próprias matrículas
+POST /api/enrollments — Autenticado                                               
+Student matricula a si (StudentId vem do token)                                                           
+Admin pode informar studentId                                                        
+GET /api/enrollments/{id}/enrollments — Autenticado                                                            
+Admin vê qualquer estudante                                                                    
+Student vê apenas as próprias matrículas                                                              
 
 
 ## 🧩 Modelo de Domínio
